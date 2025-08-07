@@ -1,0 +1,36 @@
+panda parameters
+
+1 - import pandas as pd  # -->-> basic import
+ 
+2 - df = pd.DataFrame(data)  #-->-> Create a DataFrame
+
+3 - df.head(2) and df.tail() #-->-> to display the spefic vaues or to print top values , tail-bottom 
+
+4 - print(df[df['Age'] > 26])     #-->->Filter the DataFrame to show people older than 26
+
+5 - print(df.describe())  #-->-> Generating descriptive statistics like mean cout sd max min 
+
+6 - df.fillna()  #-->-> used to fill missing values (NaN) in a DataFrame
+
+7 - sales_by_product = df.groupby('Product')['Sales'].sum()   #-->->  Grouping Data and Calculating Total Sales
+
+8 - average_sales = df['Sales'].mean()    #-->-> Calculating Average Sales
+
+9 - top_selling_product = sales_by_product.idxmax() #-->-> Finding the Top-Selling Product
+
+10 - df.shape   #-->->  is used to get the dimensions of a DataFrame. It returns a tuple representing the number of rows and columns in the DataFrame.
+
+11 df.size   #-->->  to get the size 
+
+12 df.columns   #-->->  to get the columns names 
+
+13 df.iloc[]  df.iloc[<row_indices>, <column_indices>]    #-->->  Accesses the value in the row and  column.
+
+14 df.to_csv('filename.csv') #-->-> to get excel sheet 
+
+
+
+
+
+
+
